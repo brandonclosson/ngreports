@@ -1,0 +1,19 @@
+<div class="logo">
+  <h1>NG Reports</h1>
+</div>
+<div class="reports-form">
+  <ul>
+    <% @field_types.each do |type| %>
+      <li>
+        <%= type %>
+      </li>
+    <% end %>
+  </ul>
+  <ul>
+    <% @field_names.each do |type| %>
+      <li>
+        <%= type %>
+      </li>
+    <% end %>
+  </ul>
+</div>
